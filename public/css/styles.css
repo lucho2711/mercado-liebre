@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #eac926;
+    padding-bottom: 20px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+.precio{
+    font-size: 18px;
+}
+
+.descuento{
+    font-size: 16px;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.input{
+    background-color: white;
+    border: solid 1px grey;
+    padding: 2px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.menu-bars{
+    text-align: center;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    max-width: 30px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+ul.sin-bullet {
+    list-style-type: none;
+}
+
+footer{
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.section-footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.fa-footer{
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+}
