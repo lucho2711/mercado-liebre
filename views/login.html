@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
     <link rel="stylesheet" href="/css/styles.css"> 
     <link rel="stylesheet" href="/css/normalize.css"> 
+    <link rel="icon" href="images/fav.png"> 
     <title>Mercado Liebre</title>
 </head>
 
@@ -36,25 +37,25 @@
         </div>
     </header>
     
-    <form action="" method="GET">
-        <div>
+    <form action="" method="GET" class="form-login">
+        <div class="user-login">
             <label for="usuario">Nombre de usuario</label>
-            <input type="text" placeholder="Ingrese usuario" id="usuario" name="usuario">
+            <input type="text" placeholder="Ingrese usuario" minlength="2" id="usuario" name="usuario">
         </div>
-        <div>
+        <div class="password-login">
             <label for="password">Contrasena
                 <input type="password" id="password" name="password" required>
             </label>
         </div>
         <div>
-            <button type="submit" >Enviar</button>
+            <button class="submit-button-login" type="submit" >Enviar</button>
         </div>
     </form>
     
-    <footer>
+    <footer class="footer-main">
         <article class="section-footer">
             <div class="fa-footer">
-                <i class="fas fa-credit-card"></i>
+                <i class="fas fa-credit-card fav-footer"></i>
             </div>
             <h3>
                 Pagá con tarjeta o con efectivo
@@ -64,7 +65,7 @@
             </p>
         </article>
         <article class="section-footer">
-            <div class="fa-footer">
+            <div class="fa-footer fav-footer">
                 <i class="fas fa-gift"></i>
             </div>
             <h3>
@@ -75,7 +76,7 @@
             </p>
         </article>
         <article class="section-footer">
-            <div class="fa-footer">
+            <div class="fa-footer fav-footer">
                 <i class="fas fa-user-shield"></i>
             </div>
             <h3>
@@ -85,6 +86,7 @@
                 ¿No te gusta? Devolvelo. En Mercado Liebre no hay nada que no puedas hacer porque estas siempre protegido. 
             </p>
         </article>
+
     </footer>
 </body>
 </html>
